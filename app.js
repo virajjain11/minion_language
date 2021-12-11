@@ -1,1 +1,1 @@
-alert("Everthing's good")
+// alert("Everthing's good")
