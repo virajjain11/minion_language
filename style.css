@@ -1,14 +1,73 @@
-textarea {
-    margin: 1rem;
-    padding: 1rem;
-    height: 10vh;
-    width: 50%;
-    display: block;
-    
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0px;
+    margin: 0;
+    background: var(--secondary-color);
 }
-#btn-translate{
-    margin: 1rem;
+:root{
+    --primary-clr: #F6C616;
+    --secondary-color: #F4DD4B;
+}
+/* heading  */
+.header{
+    padding: .5rem;
+    background: var(--primary-clr);
 }
 #heading{
     text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script';
+}
+
+/* text area */
+textarea {
+    margin: auto;
+    padding: 1rem;
+    height: 15vh;
+    width: 40%;
+    display: block;
+    margin-top: 2.5rem;
+    font-size: 1.2rem; 
+}
+#textOutput{
+    margin-top: 1rem;
+}
+
+/* Button */
+.btn-container{
+    text-align: center;
+}
+#btn-translate{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: var(--primary-clr);
+    font-size: 1.2rem;
+    color: black;
+}
+
+.para{
+    font-size: 1.2rem;
+   
+}
+/* footer */
+.about{
+    text-align: center;
+    background: var(--primary-clr);
+
+}
+h2{
+    padding: 1rem;
+
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.about p{
+ padding:0 1rem 1rem 1rem;
+ width: 40%;
+ text-align: center;
+ margin: auto;
+ margin-bottom: 0;
 }
